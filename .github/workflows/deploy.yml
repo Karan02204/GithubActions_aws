@@ -22,4 +22,4 @@ jobs:
         script: |
           cd /root/GithubActions_aws
           git pull
-          docker compose -d --build
+          docker compose up -d --build
